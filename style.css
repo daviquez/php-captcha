@@ -1,0 +1,40 @@
+body{
+	margin: 30px;
+}
+*{
+	box-sizing: border-box;
+}
+.container{
+	border: 1px solid gray;
+	border-radius: 15px;
+	padding: 40px;
+	width: 500px;
+	display: flex;
+}
+.left{
+	width: 30%;
+	display: flex;
+	align-items: center;
+}
+.right{
+	width: 70%;
+}
+.submit{
+	border-radius: 10px;
+	/* color: white; */
+	padding: 10px 30px;
+	border: none;
+	border: 1px solid #33ca33;
+	background: none;
+	font-weight: bold;
+	width: 200px;
+}
+input{
+	width: 202px;
+	border-radius: 2px;
+	border: 1px solid lightgray;
+	padding: 7px 0px;
+}
+img{
+	border: 1px solid lightgray;
+}
